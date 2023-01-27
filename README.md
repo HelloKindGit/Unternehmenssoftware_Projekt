@@ -35,7 +35,7 @@
   
   ----------------------------------------------------------------------------------------------------------------------------------------
   ----------------------------------------------------------------------------------------------------------------------------------------
-  # weitere Verzeichnisse
+  # Verzeichnisse ('cleaned_data' und 'data' müssen selber angelegt werden)
   
   ### 4. '/cleaned_data' -> hier kommen die Datensätze nach dem Data-Cleaning rein
   ### 5. '/data' -> hier kommen die Datensätze von 'twitter_api.py' und 'stock_ticker_api.py' rein
