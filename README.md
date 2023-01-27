@@ -1,3 +1,8 @@
+#Zuerst:
+-erstellt im root-directory 2 Ordner mit den Namen:
+  - 'data'
+  - 'cleaned_data'
+
 # notwendige Dateien
 
 ## 1. twitter_api.py:
