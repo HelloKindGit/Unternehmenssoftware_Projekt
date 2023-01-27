@@ -1,5 +1,5 @@
-#Zuerst:
--erstellt im root-directory 2 Ordner mit den Namen:
+# Zuerst:
+- erstellt im root-directory 2 Ordner mit den Namen:
   - 'data'
   - 'cleaned_data'
 
