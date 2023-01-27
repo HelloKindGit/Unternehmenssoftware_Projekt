@@ -9,7 +9,7 @@
 # notwendige Dateien
 
 ## 1. twitter_api.py:
-  - benutzt den 'https://developer.twitter.com/en/docs/twitter-api/tweets/search/api-reference/get-tweets-search-recent' Endpunkt der Twitter API
+  - benutzt den https://developer.twitter.com/en/docs/twitter-api/tweets/search/api-reference/get-tweets-search-recent Endpunkt der Twitter API
   - nach unten runterscrollen (zu 'starting creation of excel sheet') -> gewünschte Werte für 'num_of_tweets', 'query' und 'num_of_repeats' eingeben
   - 'relevant_date_start', 'relevant_date_end' und 'custom_time' werden benutzt um den Zeitrahmen für die Twitter API einzugrenzen (maximal 7 Tage zurück)
   - timedelta(x) -> x ist der Wert für wie viele Tage man zurückgehen will | x = -1 == Gestern
@@ -19,7 +19,7 @@
   - Datensatz wird unter 'data/tweets.xlsx' gespeichert
   - die erzeugte 'tweets.xlsx'-Datei sollte, nachdem man fertig ist, aus dem 'data'-Verzeichnis verschoben werden (damit man z.B. für eine andere Query einen weiteren Datensatz erstellen kann)
 ## 2. stock_ticker_api.py:
-  - benutzt die yfinance library 'https://pypi.org/project/yfinance/', um Marktdaten von der Yahoo! Finance's API zu downloaden
+  - benutzt die yfinance library https://pypi.org/project/yfinance/, um Marktdaten von der Yahoo! Finance's API zu downloaden
   - zuerst müssen das gewünschte Startdatum und Enddatum, sowie das Interval, das Aktien-Symbol und der Typ ('Adj Close' oder 'Volume') festgelegt werden 
   - die Methode 'create_csv_from_ticker' erstellt dann eine csv-Datei mit den Aktien-Daten unter dem Verzeichnis: 'data/{Aktien-Symbol}'
 ## 3. us_project.ipynb:
