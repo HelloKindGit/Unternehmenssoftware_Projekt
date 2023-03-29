@@ -1,10 +1,3 @@
-# Gruppe 3:
-  - Dominik Wache: s0579436
-  - Cem Turan: s0577857
-  
-  ----------------------------------------------------------------------------------------------------------------------------------------
-  ----------------------------------------------------------------------------------------------------------------------------------------
-
 # Zuerst:
 - Erstelle im root-directory 2 Ordner mit den Namen:
   - 'data'
@@ -40,9 +33,4 @@
   ### 4. '/cleaned_data' -> hier kommen die Datensätze nach dem Data-Cleaning rein
   ### 5. '/data' -> hier kommen die Datensätze von 'twitter_api.py' und 'stock_ticker_api.py' rein
   ### 6. '/data_save' -> fertige Datensätze um 'us_project.ipynb' auszuführen
-  
-  ----------------------------------------------------------------------------------------------------------------------------------------
-  ----------------------------------------------------------------------------------------------------------------------------------------
-  # Weiteres
-  
-  - ### Bearer-Token wird zusammen mit dem Twitter Account in wenigen Tagen gelöscht werden
+ 
